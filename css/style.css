@@ -5,13 +5,12 @@
     --light: #F5F5F5;
     --dark: #1c1b1e;
 }
-
-.back-to-top {
-    position: fixed;
-    display: none;
-    right: 30px;
-    bottom: 30px;
-    z-index: 99;
+.home {
+    text-align: center;
+}
+.home:hover{
+    color: blue !important;;
+    text-decoration: underline;
 }
 
 h3{
