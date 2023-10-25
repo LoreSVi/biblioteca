@@ -7,10 +7,15 @@
 }
 .home {
     text-align: center;
+    color: rgb(49, 161, 206) !important;
+    text-decoration: underline !important;
 }
 .home:hover{
     color: blue !important;;
     text-decoration: underline;
+    text-shadow: 3px 3px 6px rgba(16, 136, 192, 0.5);
+    font-weight: 800;
+    font-size: 20px;
 }
 
 h3{
