@@ -599,7 +599,9 @@ h6,
     }
 }
 
-
+.informesCulturales img{
+    width: 70vh;
+}
 /*** Footer ***/
 .footer {
     color: #B0B9AE;
