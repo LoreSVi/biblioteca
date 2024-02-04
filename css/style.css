@@ -253,19 +253,6 @@ h6,
     color: var(--light);
 }
 
-@media (max-width: 768px) {
-    .imgInf {
-        position: relative;
-        width: 200px !important;
-    }
-}
-
-    #header-carousel .carousel-item img {
-        position: absolute;
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-    }
 
 /*** Facts ***/
 .facts {
@@ -611,25 +598,14 @@ h6,
         width: 300px;
     }
 }
-.informesCulturales{
-    box-sizing: border-box;
-    display: block;
-}
+
 .informesCulturales img{
     width: 70vh;
 }
-
-.conoceMas{
-    box-sizing: border-box;
-    display: block;
- }
 /*** Footer ***/
 .footer {
     color: #B0B9AE;
-    box-sizing: border-box;
-    display: block;
 }
- 
 
 .footer .btn.btn-link {
     display: block;
