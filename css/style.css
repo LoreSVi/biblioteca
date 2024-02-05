@@ -676,3 +676,23 @@ h6,
   color: #b0b9ae;
   border-top: 1px solid rgba(255, 255, 255, 0.1);
 }
+
+.galeria h2{
+  text-align: center;
+}
+
+
+.galeria .card:hover{
+  color:rgb(68, 49, 179);
+  border-color: rgb(49, 19, 223);
+  border-width: 5px;
+}
+
+.imgConocemas{
+  width:700px !important;
+}
+
+.edificio-img{
+  width:500px !important;
+  height: 400px;
+}
