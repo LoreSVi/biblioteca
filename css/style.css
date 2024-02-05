@@ -3,7 +3,7 @@
   --primary: rgb(26, 95, 151);
   --secondary: #5f656f;
   --light: #f5f5f5;
-  --dark: #1c1b1e;
+  --dark: #423f49;
 }
 .home {
   text-align: center;
@@ -265,14 +265,16 @@ h6,
 }
 
 .facts .border {
-  border-color:rgb(49, 161, 206) !important;
-  border-width: 4px;
+  background-color: #273c5f;
+  border-width: 4px !important;
+  border-style: solid;
+  border-color: lightskyblue, white, grey, yellow !important;
 }
 
-.facts .border:hover{
-    background-color: #5f656f;
-    border-color:white !important;
-    border-width: 5px !important;
+.facts .border:hover {
+  background-color: #5f656f;
+  border-color: white !important;
+  border-width: 5px !important;
 }
 
 .laBiblioteca {
