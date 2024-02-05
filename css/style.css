@@ -1,13 +1,13 @@
 /********** Template CSS **********/
 body {
   background-color: #ffffff; /* Color de fondo predeterminado (claro) */
-  color: #000000; /* Color de texto predeterminado (oscuro) */
+  color:rgb(24, 23, 23); /* Color de texto predeterminado (oscuro) */
 }
 
 @media (prefers-color-scheme: dark) {
   body {
-    background-color: #000000; /* Cambia el color de fondo en modo oscuro */
-    color: #ffffff; /* Cambia el color de texto en modo oscuro */
+    background-color: #ffffff; /* Cambia el color de fondo en modo oscuro */
+    color:rgb(22, 21, 21)  /* Cambia el color de texto en modo oscuro */
   }
 }
 
