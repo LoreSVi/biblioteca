@@ -1,13 +1,13 @@
 /********** Template CSS **********/
 body {
-  background-color: #ffffff; /* Color de fondo predeterminado (claro) */
-  color:rgb(24, 23, 23); /* Color de texto predeterminado (oscuro) */
+  background-color: #ffffff !important;
+  color: rgb(24, 23, 23) !important;
 }
 
 @media (prefers-color-scheme: dark) {
   body {
-    background-color: #ffffff; /* Cambia el color de fondo en modo oscuro */
-    color:rgb(22, 21, 21)  /* Cambia el color de texto en modo oscuro */
+    background-color: #ffffff !important;
+    color: rgb(22, 21, 21) !important;
   }
 }
 
@@ -33,8 +33,18 @@ a:hover {
   font-size: 20px;
 }
 
+.navbar-toggler {
+  color: aqua !important;
+  border-color: aqua !important;
+  border-width: 2px !important;
+}
+
 h3 {
   color: rgb(155, 161, 167);
+}
+
+h2{
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 h1,
@@ -280,7 +290,7 @@ h6,
   background-color: #273c5f;
   border-width: 4px !important;
   border-style: solid;
-  border-color: lightskyblue, white, grey, yellow !important;
+  border-color: lightskyblue !important;
 }
 
 .facts .border:hover {
@@ -290,12 +300,17 @@ h6,
 }
 
 .laBiblioteca {
-  background-color: rgb(68, 147, 212);
+  background-image: url('/img/bubble.png');
 }
 .laBiblioteca h3 {
   color: #f5f5f5;
   text-decoration: underline;
   font-weight: 600;
+}
+
+.laBiblioteca article img{
+  width: 300px;
+  height: 300px;
 }
 
 /*** Features ***/
@@ -588,7 +603,7 @@ h6,
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #ffffff;
+  color: #262fb8;
   background: var(--primary);
   border-radius: 45px;
   font-size: 22px;
@@ -624,15 +639,20 @@ h6,
 }
 /*** Footer ***/
 .footer {
-  color: #b0b9ae;
+  color: #f4f4f7;
 }
-
+.footer a{
+  color:#eceaf3
+}
+.footer a:hover{
+  color:#0d054e;
+}
 .footer .btn.btn-link {
   display: block;
   margin-bottom: 5px;
   padding: 0;
   text-align: left;
-  color: #b0b9ae;
+  color: #cbc3e0;
   font-weight: normal;
   text-transform: capitalize;
   transition: 0.3s;
@@ -647,7 +667,7 @@ h6,
 }
 
 .footer .btn.btn-link:hover {
-  color: var(--light);
+  color: var(--dark);
   letter-spacing: 1px;
   box-shadow: none;
 }
