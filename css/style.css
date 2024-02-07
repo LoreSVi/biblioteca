@@ -691,6 +691,16 @@ h2{
   width:700px !important;
 }
 
+.serviceFunc .card:hover{
+  border-color: rgb(49, 19, 223);
+  border-width: 5px;
+}
+
+.service2 .card:hover{
+  border-color: rgb(49, 19, 223);
+  border-width: 5px;
+}
+
 .edificio-img{
   width:500px !important;
   height: 400px;
